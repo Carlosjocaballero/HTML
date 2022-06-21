@@ -74,6 +74,64 @@
                             <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every morning</p>
                         </details>
                     </aside>
+                    <br>
+                    <table>
+                        <!--Caption describes what the table is about-->
+                        <caption>My Daily Schedule</caption>
+                        <!--Table head-->
+                        <thead>
+                            <tr>
+                                
+                                <!--Table header-->
+                                <th>&nbsp;</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Activity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--tr stands for table row-->
+                            <tr>
+                                <th scope="row">Morning</th>
+                                <!--td stands for table data-->
+                                <td>
+                                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                                </td>
+                                <td>Write code</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Break</th>
+                                <!--td stands for table data-->
+                                <td>
+                                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                                </td>
+                                <td>Eat Lunch</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Afternoon</th>
+                                <!--td stands for table data-->
+                                <td>
+                                    <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                                </td>
+                                <td>Study for Other Courses</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Evening</th>
+                                <!--you can use the colspan tribute to decide how much space a column will take-->
+                                <!--you can use the rowspan tribute to decide how much space a row will take-->
+                                <td rowspan="2">All Other Times</td>
+                                <td>Free Time</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Night</th>
+                                <td>Sleep</td>
+                            </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and recharge!</td>
+                        </tr>
+                    </tfoot>
+                    </table>
                 </section>
             </article>
         

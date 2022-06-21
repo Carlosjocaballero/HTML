@@ -16,7 +16,7 @@ a:visited{
 }
 
 a:hover, a:active{
-    color: #eee;
+    color: green;
 }
 
 table, tr, th, td, caption {
